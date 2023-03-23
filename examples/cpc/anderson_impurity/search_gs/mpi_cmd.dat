@@ -1,0 +1,1 @@
+mpirun -np 4 /Users/umeshkumar/Desktop/NiLedge/EDRIXSLedge/edrixs/bin/ed.x

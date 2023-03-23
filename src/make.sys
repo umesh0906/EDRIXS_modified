@@ -13,7 +13,7 @@
 
 #-------------------------------------------------------------------------
 # MPI+gfortran compiler
-F90      = mpif90 
+F90      = mpif90
 LINKER   = $(F90)
 ARCHIVER = ar -ruv
 
@@ -27,8 +27,8 @@ LEVEL  = -Ofast -faggressive-loop-optimizations -fno-tree-pre -fPIC
 FFLAGS = -c $(CPP) $(CHECK) $(CDUMP) $(LEVEL)
 
 #-------------------------------------------------------------------------
-#LIBS = -L/opt/local/lib -lparpack -larpack -lopenblas  # on MacOSX using MacPorts 
-LIBS = -llapack -lopenblas -lparpack -larpack 
+#LIBS = -L~/opt/anaconda3/envs/edrixs_env/lib/ -lparpack -larpack -lopenblas  # on MacOSX using MacPorts 
+LIBS  = -llapack -lopenblas -lparpack -larpack 
 F2PY   = f2py
 F2PYC  = $(F90)
 F2PYL  = $(LIBS)
