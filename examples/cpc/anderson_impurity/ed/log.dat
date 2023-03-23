@@ -1,0 +1,37 @@
+ --------------------------------------------
+  fedrixs >>> ED begin ... 
+
+     num_val_orbs:               24
+     ed_solver:                   2
+     neval:                      10
+     nvector:                     4
+     maxiter:                  1000
+     min_ndim:                 1000
+     ncv:                        50
+     nhopp_i:                    60
+     ncoul_i:                   188
+     ndim_i:                1307504
+     nprocs:                      4
+     eigval_tol:           0.10E-09
+     idump:                       T
+
+  fedrixs >>> Build Hamiltonian ...
+     Allocate memory for ham_csr ...
+     Really building Hamiltonian begin here ...
+  fedrixs >>> Number of nonzero elements of the Hamiltonian             15602192
+  fedrixs >>> Done ! Time used:    4.4784410000000001        seconds
+
+  fedrixs >>> Diagonalize Hamiltonian to find a few lowest states ...
+
+     arpack return info:             0
+     actual arnoldi step:            12
+     number of converged Ritz values:            10
+
+
+  fedrixs >>> Done ! Time used:    575.31311499999993        seconds
+
+  fedrixs >>> Calculate the density matrix ... 
+  fedrixs >>> Done ! Time used:    7.8722950000000083        seconds
+
+  fedrixs >>> ED end ! Total time used:    587.66385099999991        seconds
+
